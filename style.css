@@ -445,6 +445,8 @@ a {
     padding-right: 8%;
     padding-left: 8%;
 }
+
+                        /* Animaciones y Transiciones */
 a:hover{ 
     background-color: rgb(92, 91, 91);
     transition: 0.5s;
@@ -469,6 +471,9 @@ a:hover{
     transition: 0.3s;
     border-radius: 80%
 }
+
+
+                        /* Media query */
 @media screen and (max-width: 768px){
 
     body {
