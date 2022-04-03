@@ -4,9 +4,17 @@
     Margin: 0;
 	Padding: 0;
     Box-sizing: border-box;
-    Text-decoration: none;
+    Text-decoration: none !important;
     List-style: none;
     font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: white !important
+}
+
+.navbar{
+    background-color: rgba(0, 0, 0, 0) !important;
 }
 
 body {
