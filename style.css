@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 * {
-    Margin: 0;
-	Padding: 0;
+    Margin: 0px;
+    Padding: 0;
     Box-sizing: border-box;
     Text-decoration: none !important;
     List-style: none;
@@ -13,8 +13,18 @@ a {
     color: white !important
 }
 
-.navbar{
-    background-color: rgba(0, 0, 0, 0) !important;
+.navbar {
+    margin: 0% 0% !important;
+    width: 100vw !important;
+    background-color: rgba(0, 0, 0, 0.938) !important;
+}
+
+.nav-link {
+    margin: 7px !important
+}
+
+.navbar-light .navbar-toggler {
+    color: white !important;
 }
 
 body {
@@ -24,10 +34,33 @@ body {
     flex-direction: column;
 }
 
+.encabezado-redes {
+    display: flex;
+    background-color: rgba(34, 34, 34, 0.945);
+    width: 100vw;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.p-header {
+    color: whitesmoke;
+    width: 70vw;
+    font-size: 30px;
+    text-align: center;
+    margin: 0%;
+    padding: 10px 5px;
+    text-shadow: 4px 4px 4px black;
+}
+
 body header {
-    background-color: rgba(0, 0, 0, 0.938);
-    height: 175px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(0, 0, 0);
+    height: 160px;
     width: 100%;
+    z-index: 9999
 }
 
 nav {
@@ -42,10 +75,10 @@ nav {
 header img {
     height: 125px;
     width: 125px;
-    margin: 0 40px;
+    margin: 0 10px;
 }
 
-header ul{
+header ul {
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -54,51 +87,65 @@ header ul{
     padding: 1vh 1vh;
 }
 
-header li{
+header li {
     border-radius: 5px;
 }
 
-li a{
+li a {
     color: rgb(238, 238, 238);
     margin: 2vh;
     text-transform: uppercase;
 }
 
-
-
-.redes{
-    background-color: rgba(58, 57, 56, 0.945);
-    height: 50px;
-    width: 100%;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    padding: 5px;
-}
-
 .redes img {
-    width: 35px;
-    height: 35px;
+    width: 25px;
+    height: 25px;
 }
- 
+
 .main-index {
-    background-color: rgba(125, 125, 128, 0.993);
-    height: max-content;
-    height: 90%;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 70% 30%;
-} 
+    background-color: rgba(0, 0, 0);
+    height: 120vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+}
 
-.main-index img{
+.main-index img {
+    height: 90vh;
+    border-radius: 9%;
+    padding: 1vh 5vw;
+}
+
+.carteles-main-index {
+    background-color: rgb(37, 37, 37);
+    height: 30%;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.cartelitos-main-index {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     height: 100%;
-    width: 100%;
-}
-.imgprincipal {
-    grid-column: span 3;
+    width: 25vw;
 }
 
+.cartelitos-main-index p {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 19px;
+    text-align: center;
+    margin: 0px;
+    color: rgb(252, 252, 252);
+}
+
+.cartelitos-main-index:nth-child(odd) {
+    background-color: rgb(104, 104, 104);
+}
 
 
 body footer {
@@ -109,7 +156,8 @@ body footer {
     height: 100px;
     width: 100%;
 }
-footer p{
+
+footer p {
     color: white;
 }
 
@@ -119,7 +167,7 @@ footer ul {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-   
+
 }
 
 footer li {
@@ -130,20 +178,22 @@ footer li {
 
                         /* HOJA DE MARCAS */
 
-.main-marcas{
+.main-marcas {
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
     grid-template-rows: repeat(3, 1fr);
 }
-.main-marcas img{
+
+.main-marcas img {
     width: 100%;
     height: auto;
 }
 
-.main-marcas p{
+.main-marcas p {
     font-weight: bold;
 }
+
 .honda {
     background-color: rgb(201, 199, 199);
     display: grid;
@@ -151,59 +201,61 @@ footer li {
     grid-template-rows: 10% 90%;
 }
 
-.main-marcas h2{
+.main-marcas h2 {
     grid-column: span 4;
     text-align: center;
     padding: 1vh;
+    font-weight: bold;
+    text-shadow: 8px 8px 8px;
 }
 
-.xr{
+.xr {
     grid-row: 2/3;
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
-    
+
 }
 
-.cbr{
+.cbr {
     grid-row: 2/3;
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 
 }
 
-.seis{
+.seis {
     grid-row: 2/3;
     grid-column: 3/4;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 
 }
 
-.monkey{
+.monkey {
     grid-row: 2/3;
     grid-column: 4/5;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 
@@ -211,26 +263,26 @@ footer li {
 
 
 .yamaha {
-    background-color:rgb(185, 183, 183);
+    background-color: rgb(185, 183, 183);
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: 10% 90%;
 }
 
-.xtz{
+.xtz {
     grid-row: 2/3;
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 
 }
 
-.runo{
+.runo {
     grid-row: 2/3;
     grid-column: 2/3;
     display: flex;
@@ -240,29 +292,29 @@ footer li {
     height: 100%;
     width: 100%;
     padding: 30px;
-    
+
 }
 
-.scooteryh{
+.scooteryh {
     grid-row: 2/3;
     grid-column: 3/4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 }
 
-.mt{
+.mt {
     grid-row: 2/3;
     grid-column: 4/5;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 }
@@ -274,57 +326,57 @@ footer li {
     grid-template-rows: 10% 90%;
 }
 
-.ktmoff{
+.ktmoff {
     grid-row: 2/3;
     grid-column: 1/2;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 }
 
-.pc{
+.pc {
     grid-row: 2/3;
     grid-column: 2/3;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 }
 
-.ktmnaked{
+.ktmnaked {
     grid-row: 2/3;
     grid-column: 3/4;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 }
 
-.ktmtravel{
+.ktmtravel {
     grid-row: 2/3;
     grid-column: 4/5;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    height:100%;
+    height: 100%;
     width: 100%;
     padding: 30px;
 }
 
                         /* HOJA DE NOSOTROS */
 
-.main-nosotros{
+.main-nosotros {
     display: grid;
     height: 100%;
     width: 100%;
@@ -344,11 +396,11 @@ footer li {
     padding: 5vh;
 }
 
-.texto p{
+.texto p {
     margin: 2vh;
 }
 
-.imgnosotros{
+.imgnosotros {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -357,34 +409,41 @@ footer li {
 
 }
 
-.imgnosotros img{
+.imgnosotros img {
     width: 80%;
     height: 40%;
 
 }
 
-                        /* HOJA DE CONTACTO */
+                    /* HOJA DE CONTACTO */
 
 .contacto {
-    background-image: url(assets/3840x2400_motorcycle-bike-road-trees-landscape-moto.jpg) ;
-    background-size:cover;
+    background-image: url(assets/3840x2400_motorcycle-bike-road-trees-landscape-moto.jpg);
+    background-size: cover;
 
-    height: 100vh ;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    font-size: 17px;
+    font-size: 19px;
 }
 
 .formularios {
     display: flex;
     flex-direction: column;
-
 }
 
-.formularios{
+.texto-contacto {
+    width: 70vw;
+}
+
+.texto-contacto p {
+    text-align: center;
+}
+
+.formularios {
     background-color: rgba(255, 255, 255, 0.61);
     margin: 5vh;
     height: 5vh;
@@ -401,7 +460,8 @@ footer li {
     justify-content: space-between;
     align-items: center;
 }
-textarea{
+
+textarea {
     background-color: rgba(255, 255, 255, 0.61);
     height: 80%;
     width: 40vh;
@@ -418,8 +478,8 @@ textarea{
     border: 1px black solid;
 }
 
-                        /* HOJA DE UBICACIÓN */
- 
+/* HOJA DE UBICACIÓN */
+
 .ubi {
     height: 100vh;
     width: 100vw;
@@ -430,7 +490,8 @@ textarea{
     align-items: center;
 
 }
-.ubicacion{
+
+.ubicacion {
     display: flex;
     justify-content: center;
     background-color: grey;
@@ -440,13 +501,14 @@ textarea{
     border-radius: 4px;
     padding-bottom: 25px;
 }
-.ubi p{
+
+.ubi p {
     height: 80px;
+    width: 60vw;
     text-align: center;
     font-size: 20px;
     font-weight: bold;
-    padding-top: 25px
-
+    padding-top: 2vh
 }
 
 a {
@@ -454,26 +516,28 @@ a {
     padding-left: 8%;
 }
 
-                        /* Animaciones y Transiciones */
-a:hover{ 
+/* Animaciones y Transiciones */
+a:hover {
     background-color: rgb(92, 91, 91);
     transition: 0.5s;
     border-radius: 5px;
 }
 
-.honda div:hover{
+.honda div:hover {
     transform: scale(1.05);
     background-color: rgba(107, 107, 107, 0.61);
     transition: 0.3s;
     border-radius: 80%
 }
-.yamaha div:hover{
+
+.yamaha div:hover {
     transform: scale(1.05);
     background-color: rgba(107, 107, 107, 0.61);
     transition: 0.3s;
     border-radius: 80%
 }
-.ktm div:hover{
+
+.ktm div:hover {
     transform: scale(1.05);
     background-color: rgba(107, 107, 107, 0.61);
     transition: 0.3s;
@@ -481,54 +545,108 @@ a:hover{
 }
 
 
-                        /* Media query */
-@media screen and (max-width: 768px){
+/* Media query */
+@media screen and (max-width: 999px) {
+    .carteles-main-index {
+        height: 30%;
+        width: 100vw;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .main-index {
+        height: auto;
+    }
+
+    .cartelitos-main-index {
+        height: 200px;
+        width: 50vw;
+    }
+
+    .cartelitos-main-index p {
+        font-size: 18px;
+    }
+
+    .cartelitos-main-index:nth-child(4n) {
+        background-color: rgb(104, 104, 104);
+    }
+
+    .cartelitos-main-index:nth-child(3) {
+        background-color: rgba(104, 104, 104, 0);
+    }
+}
+
+@media screen and (max-width: 600px) {
+
+    .cartelitos-main-index {
+        height: 100px;
+        width: 100vw;
+    }
+
+    .cartelitos-main-index p {
+        font-size: 13px;
+
+    }
+
+    .cartelitos-main-index:nth-child(2n) {
+        background-color: rgba(104, 104, 104, 0);
+    }
+
+    .cartelitos-main-index:nth-child(3) {
+        background-color: rgb(104, 104, 104);
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        background-color: rgb(112, 110, 110) !important;
+    }
 
     body {
         height: auto;
     }
+
     body header {
         background-color: rgba(0, 0, 0, 0.938);
-        height: 145px;
-        width: 100%;
+        height: 103px;
+        width: 100vw;
     }
-    
-    nav {
+
+    ul.navbar-nav {
+        align-items: center !important;
+        margin-right: 0% !important;
+        padding-right: 0% !important;
+    }
+
+    div.navbar-collapse {
         display: flex;
-        width: 100%;
-        justify-content: space-between;
-        align-items: center;
-        max-width: 992px;
-        margin: 0 auto;
-    }
-    
-    header img {
-        height: 100px;
-        width: 100px;
-        padding-top: 1px;    
-    }
-    
-    header ul{
         flex-direction: column;
+
     }
-    
-    li a{
+
+    .p-header {
+        width: 50vw;
+        font-size: 18px;
+    }
+
+    .main-index img {
+        height: 60vh;
+        padding: 1vh 1vw;
+    }
+
+    li a {
         color: rgb(238, 238, 238);
         margin-top: 0px;
         font-size: 13px;
     }
-      
-    .redes{
-        height: 42px;
 
-    }
-    
     .redes img {
-        width: 30px;
-        height: 30px;
-        padding-bottom: 1vh ;
+        width: 20px;
+        height: 20px;
     }
-   
+
     body footer {
         height: 70px;
     }
@@ -538,53 +656,30 @@ a:hover{
         width: 60%;
         overflow-x: auto;
     }
-    
-    footer p{
+
+    footer p {
         padding-left: 2vh;
         font-size: 12px;
-     }
+    }
+
     footer li {
         font-size: 11px;
         color: white;
         margin: 1vh;
     }
 
+
     .main-index {
         display: flex;
         flex-direction: column;
     }
 
-    .imgprincipal{
+    .imgprincipal {
         height: 50vw;
         width: 100%;
     }
 
-    
-    .img0{
-        object-fit:fill;
-    }   
-
-    .img1{
-        height: 50vw;
-    }
-    .img11{
-        object-fit:fill ;
-    }
-    .img2{
-        height: 50vw;
-    }
-    
-    .img22{
-        object-fit:fill ;
-    }
-    .img3{
-        height: 50vw;
-    }
-    .img33 {
-        object-fit:fill ;
-    }
-
-    .main-marcas h2{
+    .main-marcas h2 {
         grid-row: 1/2;
         grid-column: 1/3;
     }
@@ -593,26 +688,26 @@ a:hover{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 10% 40% 40%;
     }
-  
-    .xr{
+
+    .xr {
         grid-row: 2/3;
         grid-column: 1/2;
         padding: 2vh;
     }
-    
-    .cbr{
+
+    .cbr {
         grid-row: 2/3;
         grid-column: 2/3;
         padding: 2vh;
     }
-    
-    .seis{
+
+    .seis {
         grid-row: 3/4;
         grid-column: 1/2;
         padding: 2vh;
     }
-    
-    .monkey{
+
+    .monkey {
         grid-row: 3/4;
         grid-column: 2/3;
         padding: 2vh;
@@ -622,26 +717,26 @@ a:hover{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 10% 40% 40%;
     }
-  
-    .xtz{
+
+    .xtz {
         grid-row: 2/3;
         grid-column: 1/2;
         padding: 2vh;
     }
-    
-    .runo{
+
+    .runo {
         grid-row: 2/3;
         grid-column: 2/3;
         padding: 2vh;
     }
-    
-    .scooteryh{
+
+    .scooteryh {
         grid-row: 3/4;
         grid-column: 1/2;
         padding: 2vh;
     }
-    
-    .mt{
+
+    .mt {
         grid-row: 3/4;
         grid-column: 2/3;
         padding: 2vh;
@@ -651,46 +746,47 @@ a:hover{
         grid-template-columns: repeat(2, 1fr);
         grid-template-rows: 10% 40% 40%;
     }
-  
-    .ktmoff{
+
+    .ktmoff {
         grid-row: 2/3;
         grid-column: 1/2;
         padding: 2vh;
     }
-    
-    .pc{
+
+    .pc {
         grid-row: 2/3;
         grid-column: 2/3;
         padding: 2vh;
     }
-    
-    .ktmnaked{
+
+    .ktmnaked {
         grid-row: 3/4;
         grid-column: 1/2;
         padding: 2vh;
     }
-    
-    .ktmtravel{
+
+    .ktmtravel {
         grid-row: 3/4;
         grid-column: 2/3;
         padding: 2vh;
     }
+
     .texto p {
         font-size: 14px;
 
     }
 
-    .main-nosotros{
+    .main-nosotros {
         display: flex;
         flex-direction: column;
         justify-content: space-around;
     }
-    
-    .img-nosotros{
-        padding: 1vh;   
+
+    .img-nosotros {
+        padding: 1vh;
     }
-    
-    .imgnosotros img{
+
+    .imgnosotros img {
         width: 70%;
         height: 50%;
         margin: 1vh;
@@ -699,47 +795,65 @@ a:hover{
     .contacto {
         font-size: 14px;
         padding: 15px;
+        height: auto;
     }
-    
+
     .formularios {
         display: flex;
         flex-direction: column;
-    
+
     }
-    
-    .formularios{
+
+    .formularios {
         margin: 4vh;
         height: 4vh;
         width: 40vh;
         font-size: 14px;
     }
-    
+
     .suconsulta {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
     }
-    textarea{
+
+    textarea {
         height: 20vh;
         width: 40vh;
         margin: 4vh;
         font-size: 14px;
     }
-    
+
     .submit {
         height: 5vh;
         width: 20vh;
     }
 
-    .ubi p{
-        height: 60px;
+
+    .ubi p {
+        height: auto;
+        width: 90vw;
         font-size: 16px;
         padding: 3vh 3vh;
-   
+
     }
 
-    .ubi{
-        height: 90vh;
+    .ubi {
+        height: 100vh;
+    }
+}
+
+@media screen and (max-width: 379px){
+    header{
+        height: 130px !important;
+        width: 100vw;
+    }
+    .ubi {
+        height: 140vh !important;
+        align-content: space-around;
+    }
+    .ubi p{
+        height: auto !important;
     }
 }
