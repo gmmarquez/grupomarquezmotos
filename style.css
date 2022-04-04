@@ -648,7 +648,7 @@ a:hover {
     }
 
     body footer {
-        height: 70px;
+        height: auto;
     }
 
     footer ul {
@@ -844,6 +844,16 @@ a:hover {
     }
 }
 
+@media screen and (max-width: 900px) {
+    .main-index img {
+        height: 70vh;
+    }
+}
+@media screen and (max-width: 450px) {
+    .main-index img {
+        height: 40vh;
+    }
+}
 @media screen and (max-width: 379px){
     header{
         height: 130px !important;
