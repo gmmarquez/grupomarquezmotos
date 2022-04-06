@@ -1,0 +1,197 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+body {
+    height: auto;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(0, 0, 0);
+    overflow-x: none !important;
+
+    header {
+        height: auto;
+        width: 100vw;
+
+        ul {
+            display: flex;
+            align-items: center;
+            flex-wrap: nowrap;
+            justify-content: space-around;
+            width: 70%;
+            padding: 0vh 1vw;
+            margin: auto;
+
+        }
+
+        .encabezado-redes {
+            display: flex;
+            background-color: rgba(34, 34, 34, 0.945);
+            width: 100vw;
+            justify-content: space-around;
+            align-items: center;
+
+            .p-header {
+                color: whitesmoke;
+                width: 70vw;
+                font-size: 30px;
+                text-align: center;
+                margin: 0%;
+                padding: 10px 5px;
+                text-shadow: 4px 4px 4px black;
+            }
+
+            .redes img {
+                width: 25px;
+                height: 25px;
+            }
+
+        }
+
+        .navbar {
+            width: 100vw !important;
+            background-color: rgba(0, 0, 0, 0.938) !important;
+            justify-content: center !important;
+
+            .nav-link {
+                margin: 2px !important
+            }
+
+            a {
+                color: white !important;
+                text-transform: uppercase;
+
+            }
+
+            .navbar-toggler {
+                background-color: rgb(121, 121, 121) !important;
+            }
+
+            .conteinerfluid {
+
+                #navbarSupportedContent {
+
+                    .navbar-nav {
+                        justify-content: center !important;
+                    }
+
+                }
+
+            }
+        }
+    }
+
+    .main-index {
+        background-color: rgb(0, 0, 0);
+        height: 120vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+
+        img {
+            height: 90vh;
+            border-radius: 9%;
+            padding: 1vh 5vw;
+        }
+
+        .carteles-main-index {
+            background-color: rgb(37, 37, 37);
+            height: 30%;
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+            .cartelitos-main-index {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-content: center;
+                flex-wrap: wrap;
+                height: 30vh;
+                width: 25vw;
+
+                h5 {
+                    font-size: 18px;
+                    font-weight: bold;
+                    text-align: center;
+                    margin: 0px;
+                    color: rgb(252, 252, 252);
+                    text-transform: uppercase;
+                    padding: 10px;
+                    text-shadow: 4px 4px 4px rgb(0, 0, 0);
+                }
+
+                p {
+                    font-size: 14px;
+                    padding: 10px;
+                    text-align: center;
+                    margin: 0px;
+                    color: rgb(252, 252, 252);
+                }
+
+
+            }
+
+            .cartelitos-main-index:nth-child(odd) {
+                background-color: rgb(104, 104, 104);
+
+                p {
+                    color: black;
+                    font-weight: bold;
+                    text-shadow: 4px 4px 4px rgb(153, 152, 152);
+                    text-transform: capitalize;
+                }
+
+                h5 {
+                    color: black;
+                    text-shadow: 4px 4px 4px rgb(153, 152, 152);
+                    padding-left: 7px;
+                    padding-right: 7px;
+                }
+            }
+        }
+    }
+
+    footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        padding: 20px 0px;
+
+        p {
+            color: white;
+        }
+
+        ul {
+            height: 100%;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            flex-wrap: wrap;
+
+            li {
+                font-size: 15px;
+                color: white;
+                margin: 1vh;
+            }
+        }
+    }
+}
+
+@import "../scss/_marcas.scss";
+@import "../scss/_nosotros.scss";
+@import "../scss/_ubicacion.scss";
+@import "../scss/_contacto.scss";
+
+@import "./partials/_media-querys-index.scss"

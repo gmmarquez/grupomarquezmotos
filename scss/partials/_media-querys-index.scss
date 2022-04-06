@@ -1,0 +1,210 @@
+@media screen and (max-width: 900px) {
+    body {
+        .main-index {
+            height: auto;
+
+            img {
+                height: 70vh;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 768px) {
+
+    .body {
+
+        header {
+            width: 100%;
+
+            .encabezado-redes {
+                p {
+                    width: 50vw;
+                    font-size: 25px;
+                }
+
+                .redes img {
+                    width: 20px;
+                    height: 20px;
+                }
+            }
+
+            .navbar {
+
+                .container-fluid {
+                    padding-left: 3vw;
+
+                    ul {
+                        width: 100%;
+                        margin: 0px !important;
+                    }
+                }
+
+            }
+        }
+
+        .main-index {
+            height: auto;
+
+            img {
+                height: 60vh;
+                padding: 1vh 1vw;
+            }
+
+            .carteles-main-index {
+
+                .cartelitos-main-index {
+                    width: 50vw;
+                }
+            }
+
+            .cartelitos-main-index:nth-child(3) {
+                background-color: rgb(33, 37, 41) !important;
+
+                h5 {
+                    color: white !important;
+                    text-shadow: 4px 4px 4px black !important;
+                }
+
+            }
+
+            .cartelitos-main-index:nth-child(4) {
+                background-color: rgb(104, 104, 104);
+
+                h5 {
+                    color: rgb(0, 0, 0) !important;
+                    text-shadow: 4px 4px 4px rgb(153, 152, 152) !important;
+                }
+
+                p {
+                    color: black;
+                }
+            }
+
+            .main-index {
+                display: flex;
+                flex-direction: column;
+            }
+        }
+
+        footer {
+            height: auto;
+
+            ul {
+                height: 100%;
+                width: 60%;
+                padding-left: 1vw;
+
+                li {
+                    font-size: 11px;
+                    color: white;
+                    margin: 1vh;
+                }
+            }
+
+            p {
+                padding-left: 2vh;
+                font-size: 12px;
+            }
+        }
+
+    }
+}
+
+
+ul.navbar-nav {
+    align-items: center !important;
+    margin-right: 0% !important;
+    padding-right: 0% !important;
+}
+
+
+
+
+
+
+@media screen and (max-width: 600px) {
+
+    .body-index {
+
+        .main-index {
+
+            .carteles-main-index {
+
+                .cartelitos-main-index {
+                    height: 150px;
+                    width: 100vw;
+
+                    p {
+                        font-size: 13px;
+                    }
+                }
+
+                .cartelitos-main-index:nth-child(3) {
+                    background-color: #686868 !important;
+
+                    h5 {
+                        color: black !important;
+                        text-shadow: 4px 4px 4px #999898 !important;
+                    }
+
+                }
+
+                .cartelitos-main-index:nth-child(4) {
+                    background-color: rgb(33, 37, 41);
+
+                    h5 {
+                        color: white !important;
+                        text-shadow: 4px 4px 4px rgb(0, 0, 0) !important;
+                    }
+
+                    p {
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+
+    .body {
+
+        .main-index {
+
+            img {
+                height: 40vh;
+            }
+
+            .carteles-main-index {
+
+                .cartelitos-main-index {
+                    height: 150px !important;
+                    width: 100vw;
+                }
+
+                h5 {
+                    font-size: 15px !important;
+                }
+
+                p {
+                    padding: 0px !important;
+                }
+            }
+        }
+
+    }
+}
+
+@media screen and (max-width: 379px) {
+
+    .ubi {
+        height: 140vh !important;
+        align-content: space-around;
+    }
+
+    .ubi p {
+        height: auto !important;
+    }
+}

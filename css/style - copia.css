@@ -63,20 +63,6 @@ body header {
     z-index: 9999
 }
 
-nav {
-    display: flex;
-    width: 100%;
-    justify-content: space-between;
-    align-items: center;
-    max-width: 992px;
-    margin: 0 auto;
-}
-
-header img {
-    height: 125px;
-    width: 125px;
-    margin: 0 10px;
-}
 
 header ul {
     display: flex;

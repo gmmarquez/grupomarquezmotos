@@ -1,0 +1,38 @@
+@import "./partials/_variables";
+
+.ubi {
+    height: 100vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    p {
+        height: 80px;
+        width: 60vw;
+        text-align: center;
+        font-size: 20px;
+        font-weight: bold;
+        padding-top: 2vh
+    }
+    
+    a {
+        padding-right: 8%;
+        padding-left: 8%;
+    }
+
+    .ubicacion {
+        display: flex;
+        justify-content: center;
+        background-color: grey;
+        width: 70%;
+        height: 70%;
+        border-style: none;
+        border-radius: 4px;
+        padding-bottom: 25px;
+        box-shadow: $box-shadow-sombras
+    }
+}
+

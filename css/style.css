@@ -1,0 +1,732 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-decoration: none !important;
+  list-style: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+body {
+  height: auto;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: black;
+  overflow-x: none !important;
+}
+
+body header {
+  height: auto;
+  width: 100vw;
+}
+
+body header ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 70%;
+  padding: 0vh 1vw;
+  margin: auto;
+}
+
+body header .encabezado-redes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: rgba(34, 34, 34, 0.945);
+  width: 100vw;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body header .encabezado-redes .p-header {
+  color: whitesmoke;
+  width: 70vw;
+  font-size: 30px;
+  text-align: center;
+  margin: 0%;
+  padding: 10px 5px;
+  text-shadow: 4px 4px 4px black;
+}
+
+body header .encabezado-redes .redes img {
+  width: 25px;
+  height: 25px;
+}
+
+body header .navbar {
+  width: 100vw !important;
+  background-color: rgba(0, 0, 0, 0.938) !important;
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+body header .navbar .nav-link {
+  margin: 2px !important;
+}
+
+body header .navbar a {
+  color: white !important;
+  text-transform: uppercase;
+}
+
+body header .navbar .navbar-toggler {
+  background-color: #797979 !important;
+}
+
+body header .navbar .conteinerfluid #navbarSupportedContent .navbar-nav {
+  -webkit-box-pack: center !important;
+      -ms-flex-pack: center !important;
+          justify-content: center !important;
+}
+
+body .main-index {
+  background-color: black;
+  height: 120vh;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body .main-index img {
+  height: 90vh;
+  border-radius: 9%;
+  padding: 1vh 5vw;
+}
+
+body .main-index .carteles-main-index {
+  background-color: #252525;
+  height: 30%;
+  width: 100vw;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body .main-index .carteles-main-index .cartelitos-main-index {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  height: 30vh;
+  width: 25vw;
+}
+
+body .main-index .carteles-main-index .cartelitos-main-index h5 {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin: 0px;
+  color: #fcfcfc;
+  text-transform: uppercase;
+  padding: 10px;
+  text-shadow: 4px 4px 4px black;
+}
+
+body .main-index .carteles-main-index .cartelitos-main-index p {
+  font-size: 14px;
+  padding: 10px;
+  text-align: center;
+  margin: 0px;
+  color: #fcfcfc;
+}
+
+body .main-index .carteles-main-index .cartelitos-main-index:nth-child(odd) {
+  background-color: #686868;
+}
+
+body .main-index .carteles-main-index .cartelitos-main-index:nth-child(odd) p {
+  color: black;
+  font-weight: bold;
+  text-shadow: 4px 4px 4px #999898;
+  text-transform: capitalize;
+}
+
+body .main-index .carteles-main-index .cartelitos-main-index:nth-child(odd) h5 {
+  color: black;
+  text-shadow: 4px 4px 4px #999898;
+  padding-left: 7px;
+  padding-right: 7px;
+}
+
+body footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: 100%;
+  padding: 20px 0px;
+}
+
+body footer p {
+  color: white;
+}
+
+body footer ul {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+body footer ul li {
+  font-size: 15px;
+  color: white;
+  margin: 1vh;
+}
+
+.body-marcas {
+  height: 160vh !important;
+}
+
+.main-marcas {
+  height: 100%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 100%;
+      grid-template-columns: 100%;
+  -ms-grid-rows: 1fr, 1fr, 1fr;
+      grid-template-rows: 1fr, 1fr, 1fr;
+}
+
+.main-marcas img {
+  width: 100%;
+  height: auto;
+}
+
+.main-marcas p {
+  font-weight: bold;
+}
+
+.main-marcas h2 {
+  grid-column: span 4;
+  text-align: center;
+  padding: 1vh;
+  font-weight: bold;
+  text-shadow: 8px 8px 8px;
+}
+
+.main-marcas .honda, .main-marcas .yamaha, .main-marcas .ktm {
+  background-color: #c9c7c7;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr, 1fr, 1fr, 1fr;
+      grid-template-columns: 1fr, 1fr, 1fr, 1fr;
+  -ms-grid-rows: 10% 90%;
+      grid-template-rows: 10% 90%;
+}
+
+.main-marcas .honda .xr, .main-marcas .yamaha .xr, .main-marcas .ktm .xr, .main-marcas .honda .cbr, .main-marcas .yamaha .cbr, .main-marcas .ktm .cbr, .main-marcas .honda .seis, .main-marcas .yamaha .seis, .main-marcas .ktm .seis, .main-marcas .honda .monkey, .main-marcas .yamaha .monkey, .main-marcas .ktm .monkey, .main-marcas .yamaha .xtz, .main-marcas .yamaha .runo, .main-marcas .yamaha .scooteryh, .main-marcas .yamaha .mt, .main-marcas .ktm .ktmoff, .main-marcas .ktm .pc, .main-marcas .ktm .ktmnaked, .main-marcas .ktm .ktmtravel {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100%;
+  width: 100%;
+  padding: 30px;
+}
+
+.main-marcas .honda .cbr, .main-marcas .yamaha .cbr, .main-marcas .ktm .cbr {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.main-marcas .honda .seis, .main-marcas .yamaha .seis, .main-marcas .ktm .seis {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+.main-marcas .honda .monkey, .main-marcas .yamaha .monkey, .main-marcas .ktm .monkey {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+}
+
+.main-marcas .yamaha {
+  background-color: #b9b7b7;
+}
+
+.main-marcas .yamaha .xtz {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+.main-marcas .yamaha .runo {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.main-marcas .yamaha .scooteryh {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+.main-marcas .yamaha .mt {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+}
+
+.main-marcas .ktm .ktmoff {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+}
+
+.main-marcas .ktm .pc {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2/3;
+}
+
+.main-marcas .ktm .ktmnaked {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 3;
+  -ms-grid-column-span: 1;
+  grid-column: 3/4;
+}
+
+.main-marcas .ktm .ktmtravel {
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 1;
+  grid-row: 2/3;
+  -ms-grid-column: 4;
+  -ms-grid-column-span: 1;
+  grid-column: 4/5;
+}
+
+.main-nosotros {
+  display: -ms-grid;
+  display: grid;
+  height: 100%;
+  width: 100%;
+  -ms-grid-columns: 1fr 1fr;
+      grid-template-columns: 1fr 1fr;
+  -ms-grid-rows: 100%;
+      grid-template-rows: 100%;
+  background-color: grey;
+}
+
+.main-nosotros .texto {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1/2;
+  height: 90%;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  text-align: justify;
+  padding: 5vh;
+}
+
+.main-nosotros .texto p {
+  margin: 2vh;
+}
+
+.main-nosotros .imgnosotros {
+  -ms-grid-column: 2;
+  grid-column: 2/2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-line-pack: distribute;
+      align-content: space-around;
+}
+
+.main-nosotros .imgnosotros img {
+  width: 50vw;
+  height: auto;
+  margin: 3vh 3vw;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
+}
+
+.ubi {
+  height: 100vh;
+  width: 100vw;
+  background-color: grey;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.ubi p {
+  height: 80px;
+  width: 60vw;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  padding-top: 2vh;
+}
+
+.ubi a {
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+.ubi .ubicacion {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: grey;
+  width: 70%;
+  height: 70%;
+  border-style: none;
+  border-radius: 4px;
+  padding-bottom: 25px;
+  -webkit-box-shadow: 10px 10px 10px black;
+          box-shadow: 10px 10px 10px black;
+}
+
+.contacto {
+  background-image: url(../assets/3840x2400_motorcycle-bike-road-trees-landscape-moto.jpg);
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 19px;
+}
+
+.contacto .texto-contacto {
+  width: 70vw;
+}
+
+.contacto .texto-contacto .texto-contacto p {
+  text-align: center;
+}
+
+.contacto .formularios {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  background-color: rgba(255, 255, 255, 0.61);
+  margin: 5vh;
+  height: 5vh;
+  width: 40vh;
+  font-size: 17px;
+  border-radius: 4px;
+  border: 1px black solid;
+  padding-left: 10px;
+}
+
+.contacto .suconsulta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.contacto .suconsulta textarea {
+  background-color: rgba(255, 255, 255, 0.61);
+  height: 80%;
+  width: 40vh;
+  font-size: 17px;
+  border-radius: 4px;
+  border: 1px black solid;
+  padding: 10px;
+}
+
+.contacto .suconsulta .submit {
+  height: 5vh;
+  width: 20vh;
+  border-radius: 4px;
+  border: 1px black solid;
+}
+
+@media screen and (max-width: 900px) {
+  body .main-index {
+    height: auto;
+  }
+  body .main-index img {
+    height: 70vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .body header {
+    width: 100%;
+  }
+  .body header .encabezado-redes p {
+    width: 50vw;
+    font-size: 25px;
+  }
+  .body header .encabezado-redes .redes img {
+    width: 20px;
+    height: 20px;
+  }
+  .body header .navbar .container-fluid {
+    padding-left: 3vw;
+  }
+  .body header .navbar .container-fluid ul {
+    width: 100%;
+    margin: 0px !important;
+  }
+  .body .main-index {
+    height: auto;
+  }
+  .body .main-index img {
+    height: 60vh;
+    padding: 1vh 1vw;
+  }
+  .body .main-index .carteles-main-index .cartelitos-main-index {
+    width: 50vw;
+  }
+  .body .main-index .cartelitos-main-index:nth-child(3) {
+    background-color: #212529 !important;
+  }
+  .body .main-index .cartelitos-main-index:nth-child(3) h5 {
+    color: white !important;
+    text-shadow: 4px 4px 4px black !important;
+  }
+  .body .main-index .cartelitos-main-index:nth-child(4) {
+    background-color: #686868;
+  }
+  .body .main-index .cartelitos-main-index:nth-child(4) h5 {
+    color: black !important;
+    text-shadow: 4px 4px 4px #999898 !important;
+  }
+  .body .main-index .cartelitos-main-index:nth-child(4) p {
+    color: black;
+  }
+  .body .main-index .main-index {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .body footer {
+    height: auto;
+  }
+  .body footer ul {
+    height: 100%;
+    width: 60%;
+    padding-left: 1vw;
+  }
+  .body footer ul li {
+    font-size: 11px;
+    color: white;
+    margin: 1vh;
+  }
+  .body footer p {
+    padding-left: 2vh;
+    font-size: 12px;
+  }
+}
+
+ul.navbar-nav {
+  -webkit-box-align: center !important;
+      -ms-flex-align: center !important;
+          align-items: center !important;
+  margin-right: 0% !important;
+  padding-right: 0% !important;
+}
+
+@media screen and (max-width: 600px) {
+  .body-index .main-index .carteles-main-index .cartelitos-main-index {
+    height: 150px;
+    width: 100vw;
+  }
+  .body-index .main-index .carteles-main-index .cartelitos-main-index p {
+    font-size: 13px;
+  }
+  .body-index .main-index .carteles-main-index .cartelitos-main-index:nth-child(3) {
+    background-color: #686868 !important;
+  }
+  .body-index .main-index .carteles-main-index .cartelitos-main-index:nth-child(3) h5 {
+    color: black !important;
+    text-shadow: 4px 4px 4px #999898 !important;
+  }
+  .body-index .main-index .carteles-main-index .cartelitos-main-index:nth-child(4) {
+    background-color: #212529;
+  }
+  .body-index .main-index .carteles-main-index .cartelitos-main-index:nth-child(4) h5 {
+    color: white !important;
+    text-shadow: 4px 4px 4px black !important;
+  }
+  .body-index .main-index .carteles-main-index .cartelitos-main-index:nth-child(4) p {
+    color: white;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .body .main-index img {
+    height: 40vh;
+  }
+  .body .main-index .carteles-main-index .cartelitos-main-index {
+    height: 150px !important;
+    width: 100vw;
+  }
+  .body .main-index .carteles-main-index h5 {
+    font-size: 15px !important;
+  }
+  .body .main-index .carteles-main-index p {
+    padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 379px) {
+  .ubi {
+    height: 140vh !important;
+    -ms-flex-line-pack: distribute;
+        align-content: space-around;
+  }
+  .ubi p {
+    height: auto !important;
+  }
+}
+/*# sourceMappingURL=style.css.map */
