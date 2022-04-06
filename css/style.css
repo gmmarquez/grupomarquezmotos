@@ -595,52 +595,52 @@ body footer ul li {
 }
 
 @media screen and (max-width: 768px) {
-  .body header {
+  .body-index header {
     width: 100%;
   }
-  .body header .encabezado-redes p {
+  .body-index header .encabezado-redes p {
     width: 50vw;
     font-size: 25px;
   }
-  .body header .encabezado-redes .redes img {
+  .body-index header .encabezado-redes .redes img {
     width: 20px;
     height: 20px;
   }
-  .body header .navbar .container-fluid {
+  .body-index header .navbar .container-fluid {
     padding-left: 3vw;
   }
-  .body header .navbar .container-fluid ul {
+  .body-index header .navbar .container-fluid ul {
     width: 100%;
     margin: 0px !important;
   }
-  .body .main-index {
+  .body-index .main-index {
     height: auto;
   }
-  .body .main-index img {
+  .body-index .main-index img {
     height: 60vh;
     padding: 1vh 1vw;
   }
-  .body .main-index .carteles-main-index .cartelitos-main-index {
+  .body-index .main-index .carteles-main-index .cartelitos-main-index {
     width: 50vw;
   }
-  .body .main-index .cartelitos-main-index:nth-child(3) {
+  .body-index .main-index .cartelitos-main-index:nth-child(3) {
     background-color: #212529 !important;
   }
-  .body .main-index .cartelitos-main-index:nth-child(3) h5 {
+  .body-index .main-index .cartelitos-main-index:nth-child(3) h5 {
     color: white !important;
     text-shadow: 4px 4px 4px black !important;
   }
-  .body .main-index .cartelitos-main-index:nth-child(4) {
+  .body-index .main-index .cartelitos-main-index:nth-child(4) {
     background-color: #686868;
   }
-  .body .main-index .cartelitos-main-index:nth-child(4) h5 {
+  .body-index .main-index .cartelitos-main-index:nth-child(4) h5 {
     color: black !important;
     text-shadow: 4px 4px 4px #999898 !important;
   }
-  .body .main-index .cartelitos-main-index:nth-child(4) p {
+  .body-index .main-index .cartelitos-main-index:nth-child(4) p {
     color: black;
   }
-  .body .main-index .main-index {
+  .body-index .main-index .main-index {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -649,20 +649,20 @@ body footer ul li {
         -ms-flex-direction: column;
             flex-direction: column;
   }
-  .body footer {
+  .body-index footer {
     height: auto;
   }
-  .body footer ul {
+  .body-index footer ul {
     height: 100%;
     width: 60%;
     padding-left: 1vw;
   }
-  .body footer ul li {
+  .body-index footer ul li {
     font-size: 11px;
     color: white;
     margin: 1vh;
   }
-  .body footer p {
+  .body-index footer p {
     padding-left: 2vh;
     font-size: 12px;
   }
