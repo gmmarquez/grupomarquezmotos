@@ -32,15 +32,17 @@
     }
 
     .suconsulta {
+        height: auto;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
         align-items: center;
+        margin-bottom: 3vh;
 
         textarea {
             background-color: rgba(255, 255, 255, 0.61);
-            height: 80%;
-            width: 40vh;
+            height: 200px;
+            width: 70vh;
             font-size: 17px;
             border-radius: 4px;
             border: 1px black solid;

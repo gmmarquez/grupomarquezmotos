@@ -1,11 +1,30 @@
-.ubi p {
-    height: auto;
-    width: 90vw;
-    font-size: 16px;
-    padding: 3vh 3vh;
+@media screen and (max-width: 768px) {
+    body {
+        .ubi {
+            height: 100vh;
+        }
 
+        p {
+            height: auto;
+            width: auto !important;
+            font-size: 16px !important;
+            padding: 3vh 3vh;
+        }
+
+        .ubicacion {
+            width: 90% !important;
+        }
+    }
 }
 
-.ubi {
-    height: 100vh;
+@media screen and (max-width: 379px) {
+
+    .ubi {
+        height: 140vh !important;
+        align-content: space-around;
+    }
+
+    .ubi p {
+        height: auto !important;
+    }
 }

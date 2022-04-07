@@ -501,7 +501,7 @@ body footer ul li {
   height: 70%;
   border-style: none;
   border-radius: 4px;
-  padding-bottom: 25px;
+  margin-bottom: 30px;
   -webkit-box-shadow: 10px 10px 10px black;
           box-shadow: 10px 10px 10px black;
 }
@@ -553,6 +553,7 @@ body footer ul li {
 }
 
 .contacto .suconsulta {
+  height: auto;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -566,12 +567,13 @@ body footer ul li {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin-bottom: 3vh;
 }
 
 .contacto .suconsulta textarea {
   background-color: rgba(255, 255, 255, 0.61);
-  height: 80%;
-  width: 40vh;
+  height: 200px;
+  width: 70vh;
   font-size: 17px;
   border-radius: 4px;
   border: 1px black solid;
@@ -704,18 +706,251 @@ ul.navbar-nav {
 }
 
 @media screen and (max-width: 500px) {
-  .body .main-index img {
-    height: 40vh;
+  .body-index .main-index img {
+    height: 40vh !important;
   }
-  .body .main-index .carteles-main-index .cartelitos-main-index {
+  .body-index .main-index .carteles-main-index .cartelitos-main-index {
     height: 150px !important;
     width: 100vw;
   }
-  .body .main-index .carteles-main-index h5 {
+  .body-index .main-index .carteles-main-index h5 {
     font-size: 15px !important;
   }
-  .body .main-index .carteles-main-index p {
+  .body-index .main-index .carteles-main-index p {
     padding: 0px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body header .encabezado-redes p {
+    width: 50vw !important;
+    font-size: 25px !important;
+  }
+  body header .encabezado-redes .redes img {
+    width: 20px;
+    height: 20px;
+  }
+  body header .navbar .container-fluid {
+    padding-left: 3vw;
+  }
+  body header .navbar .container-fluid ul {
+    width: 100%;
+    margin: 0px !important;
+  }
+  body .main-marcas {
+    height: auto;
+  }
+  body .main-marcas .honda, body .main-marcas .yamaha, body .main-marcas .ktm {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 10% 40% 40%;
+        grid-template-rows: 10% 40% 40%;
+  }
+  body .main-marcas .honda .xr, body .main-marcas .yamaha .xr, body .main-marcas .ktm .xr, body .main-marcas .honda .cbr, body .main-marcas .yamaha .cbr, body .main-marcas .ktm .cbr, body .main-marcas .honda .seis, body .main-marcas .yamaha .seis, body .main-marcas .ktm .seis, body .main-marcas .honda .monkey, body .main-marcas .yamaha .monkey, body .main-marcas .ktm .monkey, body .main-marcas .yamaha .xtz, body .main-marcas .yamaha .runo, body .main-marcas .yamaha .scooteryh, body .main-marcas .yamaha .mt, body .main-marcas .ktm .ktmoff, body .main-marcas .ktm .pc, body .main-marcas .ktm .ktmnaked, body .main-marcas .ktm .ktmtravel {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    padding: 2vh;
+  }
+  body .main-marcas .honda .cbr, body .main-marcas .yamaha .cbr, body .main-marcas .ktm .cbr {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    padding: 2vh;
+  }
+  body .main-marcas .honda .seis, body .main-marcas .yamaha .seis, body .main-marcas .ktm .seis {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    padding: 2vh;
+  }
+  body .main-marcas .honda .monkey, body .main-marcas .yamaha .monkey, body .main-marcas .ktm .monkey {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    padding: 2vh;
+  }
+  body .main-marcas .yamaha {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 10% 40% 40%;
+        grid-template-rows: 10% 40% 40%;
+  }
+  body .main-marcas .yamaha .xtz {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    padding: 2vh;
+  }
+  body .main-marcas .yamaha .runo {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    padding: 2vh;
+  }
+  body .main-marcas .yamaha .scooteryh {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    padding: 2vh;
+  }
+  body .main-marcas .yamaha .mt {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    padding: 2vh;
+  }
+  body .main-marcas .ktm {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+    -ms-grid-rows: 10% 40% 40%;
+        grid-template-rows: 10% 40% 40%;
+  }
+  body .main-marcas .ktm .ktmoff {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    padding: 2vh;
+  }
+  body .main-marcas .ktm .pc {
+    -ms-grid-row: 2;
+    -ms-grid-row-span: 1;
+    grid-row: 2/3;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    padding: 2vh;
+  }
+  body .main-marcas .ktm .ktmnaked {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 1;
+    grid-column: 1/2;
+    padding: 2vh;
+  }
+  body .main-marcas .ktm .ktmtravel {
+    -ms-grid-row: 3;
+    -ms-grid-row-span: 1;
+    grid-row: 3/4;
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 1;
+    grid-column: 2/3;
+    padding: 2vh;
+  }
+  body .main-marcas h2 {
+    -ms-grid-row: 1;
+    -ms-grid-row-span: 1;
+    grid-row: 1/2;
+    -ms-grid-column: 1;
+    -ms-grid-column-span: 2;
+    grid-column: 1/3;
+  }
+}
+
+@media screen and (max-width: 520px) {
+  body header .encabezado-redes .p-header {
+    font-size: 20px !important;
+  }
+  body .main-marcas h2 {
+    font-size: 20px;
+  }
+  body .main-marcas p {
+    font-size: 14px;
+  }
+  body footer {
+    height: auto;
+  }
+  body footer p {
+    padding-left: 2vh;
+    font-size: 12px !important;
+  }
+  body footer ul {
+    height: 100%;
+    width: 60%;
+    padding-left: 1vw;
+  }
+  body footer ul li {
+    font-size: 11px !important;
+    color: white;
+    margin: 1vh;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body .main-nosotros {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+  }
+  body .main-nosotros .texto {
+    padding: 2vh 2vw;
+  }
+  body .main-nosotros .imgnosotros {
+    padding: 1vh;
+  }
+  body .main-nosotros .imgnosotros img {
+    width: 70%;
+    height: 50%;
+    margin: 1vh;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .main-nosotros .texto {
+    padding: 2vh 2vw;
+  }
+  .main-nosotros .texto p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body .ubi {
+    height: 100vh;
+  }
+  body p {
+    height: auto;
+    width: auto !important;
+    font-size: 16px !important;
+    padding: 3vh 3vh;
+  }
+  body .ubicacion {
+    width: 90% !important;
   }
 }
 
@@ -727,6 +962,41 @@ ul.navbar-nav {
   }
   .ubi p {
     height: auto !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  body .contacto {
+    font-size: 14px;
+    padding: 15px;
+    height: auto;
+  }
+  body .contacto .texto-contacto {
+    padding: 1vh 1vw !important;
+  }
+  body .contacto .texto-contacto p {
+    padding: 1vh 1vw;
+    text-align: center;
+  }
+  body .contacto .suconsulta {
+    height: auto;
+    margin-bottom: 4vw;
+  }
+  body .contacto .suconsulta textarea {
+    height: 200px;
+    width: 70vw;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body .contacto .formularios {
+    height: 30px;
+    width: 70vw;
+    margin: 3vh 0vw;
+  }
+  body .contacto .suconsulta {
+    height: auto;
+    margin-bottom: 4vw;
   }
 }
 /*# sourceMappingURL=style.css.map */

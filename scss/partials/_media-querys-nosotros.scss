@@ -1,15 +1,38 @@
-.main-nosotros {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+@media screen and (max-width: 768px) {
+
+    body {
+
+        .main-nosotros {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+
+            .texto {
+                padding: 2vh 2vw;
+            }
+
+            .imgnosotros {
+                padding: 1vh;
+            }
+
+            .imgnosotros img {
+                width: 70%;
+                height: 50%;
+                margin: 1vh;
+            }
+        }
+    }
 }
 
-.img-nosotros {
-    padding: 1vh;
-}
+@media screen and (max-width: 600px) {
+    .main-nosotros {
+       
+        .texto {
+           padding: 2vh 2vw;
 
-.imgnosotros img {
-    width: 70%;
-    height: 50%;
-    margin: 1vh;
+            p{
+                font-size: 14px;
+            }
+        }
+    }
 }
