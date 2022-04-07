@@ -905,40 +905,6 @@ ul.navbar-nav {
   }
 }
 
-body header .navbar a:hover {
-  background-color: #5c5b5b;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-  border-radius: 5px;
-}
-
-body .main-marcas .honda div:hover, body .main-marcas .yamaha div:hover, body .main-marcas .ktm div:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  background-color: rgba(107, 107, 107, 0.61);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  border-radius: 80%;
-}
-
-body .main-marcas .yamaha div:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  background-color: rgba(107, 107, 107, 0.61);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  border-radius: 80%;
-}
-
-body .main-marcas .ktm div:hover {
-  -webkit-transform: scale(1.05);
-          transform: scale(1.05);
-  background-color: rgba(107, 107, 107, 0.61);
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  border-radius: 80%;
-}
-
 @media screen and (max-width: 768px) {
   body .main-nosotros {
     display: -webkit-box;
@@ -1032,5 +998,39 @@ body .main-marcas .ktm div:hover {
     height: auto;
     margin-bottom: 4vw;
   }
+}
+
+body header .navbar a:hover {
+  background-color: #5c5b5b;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  border-radius: 5px;
+}
+
+body .main-marcas .honda div:hover, body .main-marcas .yamaha div:hover, body .main-marcas .ktm div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: rgba(107, 107, 107, 0.61);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 80%;
+}
+
+body .main-marcas .yamaha div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: rgba(107, 107, 107, 0.61);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 80%;
+}
+
+body .main-marcas .ktm div:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  background-color: rgba(107, 107, 107, 0.61);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  border-radius: 80%;
 }
 /*# sourceMappingURL=style.css.map */
