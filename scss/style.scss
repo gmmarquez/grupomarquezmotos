@@ -92,10 +92,17 @@ body {
 
     .main-index {
         background-color: rgb(0, 0, 0);
-        height: 120vh;
+        height: auto;
         width: 100vw;
         display: flex;
         flex-direction: column;
+
+        h1 {
+            text-align: center;
+            color: white;
+            padding: 2vh 0vw;
+            text-shadow: 4px 4px 4px black;
+        }
 
         img {
             height: 90vh;

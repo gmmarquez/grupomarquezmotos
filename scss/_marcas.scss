@@ -8,7 +8,16 @@
     height: 100%;
     display: grid;
     grid-template-columns: 100%;
-    grid-template-rows: 1fr, 1fr, 1fr;
+    grid-template-rows: 1fr, 1fr, 1fr, 1fr;
+
+    h1 {
+        text-align: center;
+        color: white;
+        padding: 2vh 0vw;
+        background-color: rgb(36, 36, 36);
+        margin: 0px;
+        text-shadow: 4px 4px 4px black;
+    }
 
     img {
         width: 100%;
