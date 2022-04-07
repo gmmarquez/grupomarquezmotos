@@ -1,1 +1,22 @@
-$box-shadow-sombras: (10px 10px 10px black)
+$box-shadow-sombras: (10px 10px 10px black);
+
+$maps:(
+    color: black,
+    tamaño-fuente-pequeña: 14px,
+
+);
+
+$config-grid-marcas: (
+    color-fondo: rgb(201, 199, 199),
+    columnas-grid: (1fr 1fr 1fr 1fr),
+    filas-grid: (10% 90%),
+
+);
+
+@mixin propiedades-flex($display, $direccion, $horizontal, $vertical) {
+    display: $display;
+    flex-direction: $direccion;
+    justify-content: $horizontal;
+    align-items: $vertical;
+}
+

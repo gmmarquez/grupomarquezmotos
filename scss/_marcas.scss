@@ -1,3 +1,5 @@
+@import "partials/_variables";
+
 .body-marcas {
     height: 160vh !important;
 }
@@ -26,10 +28,10 @@
     }
 
     .honda {
-        background-color: rgb(201, 199, 199);
         display: grid;
-        grid-template-columns: 1fr, 1fr, 1fr, 1fr;
-        grid-template-rows: 10% 90%;
+        background-color: map-get($config-grid-marcas, color-fondo);
+        grid-template-columns: map-get($config-grid-marcas, columnas-grid );
+        grid-template-rows: map-get($config-grid-marcas, filas-grid );
 
         .xr {
             grid-row: 2/3;
